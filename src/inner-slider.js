@@ -217,6 +217,7 @@ export var InnerSlider = createReactClass({
         onMouseEnter={this.onInnerSliderEnter}
         onMouseLeave={this.onInnerSliderLeave}
         onMouseOver={this.onInnerSliderOver}
+        style={this.props.style}
       >
         {prevArrow}
         <div
